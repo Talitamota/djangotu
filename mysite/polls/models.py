@@ -10,6 +10,7 @@ class Question(models.Model):
 	#teste
 	#teste2
 	#teste3
+	#teste4
 	def was_published_recently(self):
 		return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
